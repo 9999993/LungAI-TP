@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+lungai-tp-env/
+
+# Data files (too large for GitHub)
+data/raw/
+data/train/
+data/val/
+data/test/
+data/*.csv
+
+# Model files (too large for GitHub)
+*.pth
+*.pt
+
+# Results
+results/
+streamlit.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+nohup.out
